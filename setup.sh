@@ -19,15 +19,9 @@ sudo apt-get install -y rlwrap
 
 #Installing MongoDB
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
-echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.list
+echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.$
 sudo apt-get update
 sudo apt-get install mongodb-10gen
-
-#Installing ExpressJS
-#npm install express –g
-
-###CONTINUE 
-#http://thecodebarbarian.wordpress.com/2013/07/22/introduction-to-the-mean-stack-part-one-setting-up-your-tools/
 
 # Install Heroku toolbelt
 # https://toolbelt.heroku.com/debian
